@@ -203,6 +203,40 @@ The `GEMINI_API_KEY` environment variable is configured securely in the Vercel p
 * Mobile layout works
 * Environment variable is available
 
+## Testing & Audit Evidence
+
+### AI Study Guide Generation
+
+The deployed application successfully generates structured study material including a summary, key points, important terms, and practice questions.
+
+![StudySpark AI working](docs/evidence/ai-working.png)
+
+### Automated Testing
+
+The application includes automated tests using Vitest and React Testing Library.
+
+Results:
+
+- 8/8 tests passing
+- 76.08% statement coverage
+- 76.47% branch coverage
+- 63.63% function coverage
+- 76.08% line coverage
+
+![Test coverage](docs/evidence/test-coverage.png)
+
+### Lighthouse Audit
+
+The production deployment was audited using Google Lighthouse.
+
+Results:
+
+- Performance: 99
+- Accessibility: 100
+- Best Practices: 100
+
+![Lighthouse audit](docs/evidence/lighthouse-audit.png)
+
 ## Rollback Strategy
 
 If a deployment introduces a critical issue, the previous stable Vercel deployment can be promoted again while the problem is investigated.
