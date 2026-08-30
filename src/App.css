@@ -101,7 +101,7 @@ button:disabled {
 .hero-description {
   max-width: 680px;
   margin: 0;
-  color: #5d6961;
+  color: #46534b;
   line-height: 1.75;
   font-size: 1.05rem;
 }
@@ -143,7 +143,7 @@ button:disabled {
 }
 
 .character-count {
-  color: #748078;
+  color: #4f5d54;
   font-size: 0.78rem;
 }
 
@@ -181,7 +181,7 @@ textarea:focus-visible {
 
 .helper-text {
   margin: 8px 0 18px;
-  color: #718077;
+  color: #4f5d54;
   font-size: 0.78rem;
   line-height: 1.5;
 }
@@ -265,7 +265,7 @@ textarea:focus-visible {
 .state-container p {
   max-width: 320px;
   margin: 0;
-  color: #748078;
+  color: #4f5d54;
   line-height: 1.6;
   font-size: 0.9rem;
 }
@@ -396,7 +396,7 @@ footer .container {
 
 footer p {
   margin: 0;
-  color: #727d75;
+  color: #4f5d54;
   font-size: 0.8rem;
 }
 
